@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--title-->
     <title>Student Bio</title>
     <!--css in html -->
@@ -23,36 +24,47 @@
 
 <!--Page-->
 <body>
-    <h1>
-        Student Bio
-    </h1>
-    <h2>
-        Sarah Myriam Bamba
-    </h2>
-    <!--profile image-->
-    <img src="IMG_8763.jpeg" alt="a photo of sarah">
-    <br/>
-    <!--about me paragraph -->
-    <p>
-        My name is <strong>Sarah Myriam</strong>,I am a student in Columbia Engineering.
-        Beginning spring 2020, I stumbled upon coding through an internet forum and fell in love with it.
-        I am a full-stack web developer with experience in JavaScript, Node.js, MongoDB and React .
-    </p>
 
-    <!--Contact info-->
-    <h1>
-        Contact Info
-    </h1>
-    <ul>
-        <li>
-            Email: <a href="sarahbamba17@gmail.com">sarahbamba17@gmail.com</a>
-        </li>
-        <li>
-            Github: <a href="https://github.com/SarahMyriam">https://github.com/SarahMyriam</a>
-        </li>
-        <li>
-            Portfolio: <a href="Coming Soon">Coming Soon</a>
-        </li>
-    </ul>
+    <!--header-->
+    <header>
+        <h1>
+            Student Bio
+        </h1>
+    </header>
+    <div class="container">
+        <section id="main-bio">
+            <h2>
+                Sarah Myriam Bamba
+            </h2>
+    
+            <!--profile image-->
+            <img id ="bio-image" src="IMG_8763.jpeg" alt="a photo of sarah">
+            
+            <!--about me paragraph -->
+            <p>
+                My name is <strong>Sarah Myriam</strong>,I am a student in Columbia Engineering.
+                Beginning spring 2020, I stumbled upon coding through an internet forum and fell in love with it.
+                I am a full-stack web developer with experience in JavaScript, Node.js, MongoDB and React .
+            </p>
+        </section>
+        <!--Contact info-->
+        <section id="contact-info">
+
+            <h1>
+                Contact Info
+            </h1>
+            <ul>
+                <li>
+                    <strong>Email:</strong> <a href="sarahbamba17@gmail.com">sarahbamba17@gmail.com</a>
+                </li>
+                <li>
+                    <strong>Github:</strong> <a href="https://github.com/SarahMyriam">https://github.com/SarahMyriam</a>
+                </li>
+                <li>
+                    <strong>Portfolio:</strong> <a href="Coming Soon">Coming Soon</a>
+                </li>
+            </ul>
+        </section>  
+    </div> 
 </body>
 </html>
